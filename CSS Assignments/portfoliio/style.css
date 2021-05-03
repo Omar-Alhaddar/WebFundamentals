@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  /*   padding: 0px; */
+  outline: 1px dotted green;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+.header {
+  background-color: #f9f9f9;
+  width: 900px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .p1 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+  margin: 10px;
+}
+.header .p2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+.main {
+  background: linear-gradient(#1f0f13, #6f5964);
+}
+.main p {
+  margin: 10px;
+  height: 150px;
+}
+.up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .up .pic img {
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+  border: 5px solid #7d7377;
+}
+
+.heading {
+  background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+  height: 50px;
+}
+.about {
+  margin: 10px;
+  margin-top: 7px;
+  width: 450px;
+  height: 259px;
+  background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+}
+
+.main .down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.la-mode {
+  background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+  margin: 10px;
+  width: 300px;
+  height: auto;
+}
+.family-contacts {
+  background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+  margin: 10px;
+  width: 300px;
+  height: auto;
+}
+.five-eleven {
+  background: linear-gradient(to bottom right, #fefefe, #dbcbda);
+  margin: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.down-images img {
+  max-width: 100%;
+  max-height: 100%;
+}
+h3 {
+  color: white;
+  padding: 10px;
+}
+.logos {
+  margin-left: 7px;
+  display: flex block;
+  align-items: center;
+  justify-content: space-between;
+}
+.logos img {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+input {
+  background-color: #407d60;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  width: autos;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #fafafa;
+}
+.social {
+  display: flex;
+  width: 362px;
+  padding: 10px;
+  margin: auto;
+}
+footer img {
+  width: 20px;
+  margin: auto;
+}
